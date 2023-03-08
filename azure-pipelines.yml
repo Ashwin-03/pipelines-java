@@ -28,3 +28,5 @@ steps:
     WebAppName: 'webapp-10679'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     RuntimeStack: 'JAVA|8-jre8'
+
+- task: PublishBuildArtifacts@1
